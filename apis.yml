@@ -1,8 +1,32 @@
 aid: infly
-name: infly
-description: infly is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: INF Tech
+description: >-
+  INF Tech (无限光年, "Infinite Light Year") is an AI-native technology company
+  headquartered in Shanghai, with a global entity in Singapore (inf.sg), building
+  safe and trustworthy agentic AI for mission-critical industries. Its flagship is
+  an enterprise "Agentic OS" — an intelligent-agent operating system with unified
+  governance, a private AI code-execution engine that supports custom LLMs and
+  skills, and full-stack application security spanning model training through
+  deployment. INF also develops and open-sources multimodal foundation models,
+  including the Infinity-Parser document-parsing family, the INF-Retriever bilingual
+  dense-retrieval models, OpenCoder code LLMs, and VL-Rethinker vision-language
+  reasoning models, all published on Hugging Face and GitHub. Vertical "industry
+  agents" target finance (AI index customization, compliance intelligence,
+  investment research, and SME credit rating) alongside science and education.
+  The company exposes API, CLI, and SDK access and supports MCP integration.
 url: https://raw.githubusercontent.com/api-evangelist/infly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://inf.sg/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Large Language Models
+- Generative AI
+- AI Agents
+- Document Parsing
+- Retrieval
+- Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/infly-domain-security.yml
 - type: Website
   url: https://infly.cn
+- type: DeveloperPortal
+  url: https://inf.sg
+- type: GitHubOrganization
+  url: https://github.com/infly-ai
+- type: SourceCode
+  url: https://huggingface.co/infly
+- type: LinkedIn
+  url: https://www.linkedin.com/company/inftechai/
+- type: Contact
+  url: https://inf.sg/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: probed
+source: live probes of https://infly.cn/.well-known/*
+host: infly.cn
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+notes: >-
+  No .well-known documents are published on infly.cn as of this probe. This is a
+  valid negative result recorded for idempotent re-runs; no canonical WellKnown or
+  SecurityTxt pointer is emitted because nothing was found.
