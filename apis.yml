@@ -50,7 +50,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Generative AI
 - AI Agents
@@ -67,6 +67,7 @@ tags_raw:
 - Document Parsing
 - Retrieval
 - Finance
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
